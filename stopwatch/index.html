@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <h1 class="text-center header" style="margin-top: 20px; ">Stop Watch</h1>
+    <div class="container" style="width: 50%; margin: 0 auto;">
+        <div class="timer text-center" >
+            <span id="hours">00</span>
+            <span>:</span>
+            <span id="minutes">00</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+            <span>:</span>
+            <span id="mseconds">00</span>
+        </div>
+        <div id="button" class="text-center">
+            <button class="btn btn-warning" id="start" style="width: 25%;">Start</button>
+            <button class="btn btn-warning" id="pause" style="width: 25%;">Pause</button>
+            <button class="btn btn-warning" id="reset" style="width: 25%;">Reset</button>
+            <button class="btn btn-warning" id="submit" style="width: 25%;">Submit</button>
+        </div>
+        <hr>
+        <div class="text-center">
+            <h3 class="header text-center">Your Submitted Laps</h3>
+        <br><br>
+        <h2><span id="laps"></span></h2>
+        </div>
+    </div>
+    <script src="stopwatch.js"></script>
+
+</body>
+</html>
